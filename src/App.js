@@ -14,8 +14,8 @@ function App() {
   const [pathPositions, setPathPostions] = useState([]);
 
   const scrollHandler = () => {
+    console.log('executed')
     if (pathPositions["CONTACT"]-70 <= window.scrollY) {
-      console.log('contact');
       setButton("CONTACT");
     } else if (pathPositions["ARTICLE"]-70 <= window.scrollY) {
       console.log('article');
