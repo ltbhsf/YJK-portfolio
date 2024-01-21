@@ -14,17 +14,17 @@ function App() {
   const [pathPositions, setPathPostions] = useState([]);
 
   const scrollHandler = () => {
-    console.log('executed')
-    if (pathPositions["CONTACT"]-70 <= window.scrollY) {
+    console.log();
+    if (pathPositions["CONTACT"] - 70 <= window.scrollY) {
       setButton("CONTACT");
-    } else if (pathPositions["ARTICLE"]-70 <= window.scrollY) {
-      console.log('article');
+    } else if (pathPositions["ARTICLE"] - 70 <= window.scrollY) {
+      console.log("article");
       setButton("ARTICLE");
-    } else if (pathPositions["PROJECT"]-70 <= window.scrollY) {
-      console.log('project');
+    } else if (pathPositions["PROJECT"] - 70 <= window.scrollY) {
+      console.log("project");
       setButton("PROJECT");
-    } else if (pathPositions["ABOUT"]-70 <= window.scrollY) {
-      console.log('about');
+    } else if (pathPositions["ABOUT"] - 70 <= window.scrollY) {
+      console.log("about");
       setButton("ABOUT");
     }
   };
@@ -42,16 +42,14 @@ function App() {
       PROJECT: document.getElementById("PROJECT").offsetTop - 70,
       ARTICLE: document.getElementById("ARTICLE").offsetTop - 70,
     });
-    
-    window.addEventListener("scroll", scrollHandler);
-  }, []);
-
-  useEffect(() => {
+ 
     window.scrollTo({
       top: pathPositions[path],
       behavior: "smooth",
     });
-  }, [path, pathPositions]);
+  }, [path]);
+
+  window.addEventListener("scroll", scrollHandler);
 
   return (
     <div className="App">
