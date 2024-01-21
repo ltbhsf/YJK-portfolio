@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/YJK-portfolio/static/css/main.e1ade3cf.css",
+    "main.js": "/YJK-portfolio/static/js/main.1cf1b838.js",
+    "static/js/787.7da95b79.chunk.js": "/YJK-portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/pr00.gif": "/YJK-portfolio/static/media/pr00.b96dfbfb43dd6b967bfd.gif",
+    "static/media/pr05.gif": "/YJK-portfolio/static/media/pr05.9d7b0b569cefa7f8e064.gif",
+    "static/media/pr02.gif": "/YJK-portfolio/static/media/pr02.4912771d5aecf76f3083.gif",
+    "static/media/sc06.jpeg": "/YJK-portfolio/static/media/sc06.bbddc3ba8dee91391f6e.jpeg",
+    "static/media/pr09.gif": "/YJK-portfolio/static/media/pr09.617df060f51b72007ba4.gif",
+    "static/media/sc05.jpeg": "/YJK-portfolio/static/media/sc05.f4058fc138d2d988a2b3.jpeg",
+    "static/media/pr07.gif": "/YJK-portfolio/static/media/pr07.f653541415d725931b87.gif",
+    "static/media/pr04.gif": "/YJK-portfolio/static/media/pr04.67fe3100625f889c11b0.gif",
+    "static/media/sc02.jpeg": "/YJK-portfolio/static/media/sc02.a12a5380fe9474984ed5.jpeg",
+    "static/media/sc01.jpeg": "/YJK-portfolio/static/media/sc01.c930445c212a5107c187.jpeg",
+    "static/media/pr03.gif": "/YJK-portfolio/static/media/pr03.ea8dbb63e03568683643.gif",
+    "static/media/pr01.gif": "/YJK-portfolio/static/media/pr01.a11d92d775f14fd6a4fc.gif",
+    "static/media/sc09.jpeg": "/YJK-portfolio/static/media/sc09.853bc0f1dad93fd0f672.jpeg",
+    "static/media/sc03.jpeg": "/YJK-portfolio/static/media/sc03.9b6119f3a0d00280c336.jpeg",
+    "static/media/sc07.jpeg": "/YJK-portfolio/static/media/sc07.a1c7a459dd58d1cd4b79.jpeg",
+    "static/media/sc08.jpeg": "/YJK-portfolio/static/media/sc08.224bec45f5a3075aa99e.jpeg",
+    "static/media/sc04.jpeg": "/YJK-portfolio/static/media/sc04.4e5371848dd304f5c3dc.jpeg",
+    "static/media/pr06.jpeg": "/YJK-portfolio/static/media/pr06.5afab5fa91f9924c5a2e.jpeg",
+    "static/media/dummy.png": "/YJK-portfolio/static/media/dummy.564ea9df948656c874e1.png",
+    "static/media/sc00.jpeg": "/YJK-portfolio/static/media/sc00.74c7eb3a294cd2a31691.jpeg",
+    "index.html": "/YJK-portfolio/index.html",
+    "main.e1ade3cf.css.map": "/YJK-portfolio/static/css/main.e1ade3cf.css.map",
+    "main.1cf1b838.js.map": "/YJK-portfolio/static/js/main.1cf1b838.js.map",
+    "787.7da95b79.chunk.js.map": "/YJK-portfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1ade3cf.css",
+    "static/js/main.1cf1b838.js"
+  ]
+}
