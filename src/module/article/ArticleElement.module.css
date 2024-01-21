@@ -1,0 +1,40 @@
+.article-box {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin-bottom: 10px;
+  font-family: "Diphylleia", serif;
+  font-family: "Fruktur", system-ui;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.article-box:hover > * {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+}
+
+.article-box h3 {
+  color: black;
+}
+
+.article-box img {
+  width: 200px;
+}
+
+.article-element {
+  width: 200px;
+  /* border: solid blue; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-element p,
+h2 {
+  font-size: 12px;
+}

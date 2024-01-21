@@ -1,0 +1,23 @@
+.pagination{
+    color: white;
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 70px auto;
+    gap: 20px;
+    text-align: center;
+}
+
+.current{
+    border-radius: 100%;
+    border: solid white 1px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.pagination span{
+    font-size: 20px;
+    line-height: 30px;
+}

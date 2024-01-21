@@ -1,0 +1,29 @@
+.tab {
+  display: flex;
+  font-size: 110px;
+  /* color:  white; */
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  font-weight: 1000;
+}
+
+.A {
+  animation: moving 19s linear infinite;
+}
+
+.B {
+  animation: moving 15s reverse linear infinite;
+}
+
+.C {
+  animation: moving 17s reverse linear infinite;
+}
+
+@keyframes moving {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

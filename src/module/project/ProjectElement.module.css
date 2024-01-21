@@ -1,0 +1,69 @@
+.project-element-container {
+  width: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  height: 320px;
+}
+
+.image-holder {
+  background-color: rgba(72, 69, 69, 0.5);
+  position: relative;
+  border: solid white 0.5px;
+  transition: all 1s ease;
+}
+.image-holder img {
+  width: inherit;
+  height: inherit;
+}
+
+.project-description {
+  display: flex;
+  width: 364px;
+  height: 230px;
+  border: solid 0.5px white;
+  transition: all 1s ease;
+}
+
+.content {
+  flex: 1;
+  /* border: solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  margin: 10px;
+  font-family: "Diphylleia", serif;
+  font-family: "Fruktur", system-ui;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.content h1 {
+  font-size: 23px;
+}
+
+.content p {
+  font-size: 15px;
+}
+
+.content li{
+  font-size: 15px;
+}
+
+
+.focused-item {
+  width: 450px;
+  height: 292.67px;
+  
+  transition: all 1s ease;
+}
+
+.un-focused-item {
+  width: 364px;
+  height: 230px;
+  
+  transition: all 1s ease;
+}

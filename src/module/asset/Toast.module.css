@@ -1,0 +1,24 @@
+.toast {
+  font-family: "Diphylleia", serif;
+  font-family: "Fruktur", system-ui;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  -webkit-text-stroke: transparent;
+  width: max-content;
+  height: max-content;
+  font-size: 20px;
+  transition: ease-in-out 0.3s opacity;
+  opacity: 0;
+
+  position: absolute;
+  top: -25px;
+  right: 50%;
+}
+
+.baked {
+    opacity: 1;
+}
+
+.out{
+    opacity: 0;
+}

@@ -1,0 +1,27 @@
+.origin-container{
+    
+    background-color: black;
+    /* height: 750px; */
+    width: 1400px;
+    
+    min-width: 93%;
+    /* min-height: 93vh; */
+
+    overflow: hidden;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    margin-bottom: 400px;
+    position: relative;
+    /* border: solid red; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* color: white */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.last{
+    margin-bottom: 0;
+}
+

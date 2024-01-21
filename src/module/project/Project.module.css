@@ -1,0 +1,12 @@
+.project-container {
+  /* color: white;  */
+  display: flex;
+  /* gap: 40px; */
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 130px 60px 130px;
+  
+}
+

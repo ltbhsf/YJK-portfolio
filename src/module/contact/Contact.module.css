@@ -1,0 +1,36 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color: white;
+  /* border: solid red; */
+  margin: 20px 10px 30px 90px;
+}
+
+.contact-container p {
+  font-family: "Diphylleia", serif;
+  font-family: "Fruktur", system-ui;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+}
+
+.contact-container h1 {
+  
+  /* border: solid red; */
+  width: fit-content;
+  font-size: 120px;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.contact-container h1:hover {
+  color: #4e4cdd;
+}
+
+.contact-container h1 span {
+  position: relative;
+  color: white;
+  -webkit-text-stroke: none;
+  font-size: 35px;
+  /* border: solid red; */
+}

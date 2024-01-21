@@ -1,0 +1,69 @@
+.header {
+  color: white;
+  margin: 0 40px;
+  position: sticky;
+  top: 40px;
+  z-index: 100;
+  /* border: solid red; */
+}
+
+/* .header  *{
+    display:  inline-block;
+} */
+.homeTab {
+  display: inline-block;
+  width: 270px;
+  /* border: solid white; */
+}
+
+.homeTab:hover {
+  color: #4e4cdd;
+}
+
+.tabs , .tabs > h2{
+  display: inline-block;
+
+  /* border: solid red; */
+  
+}
+
+.tabs h2 {
+  width: 200px;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+.highlight-line {
+  border-bottom: solid 5px #4e4cdd;
+  width: 100px;
+  /* border: solid 1px red; */
+}
+
+.home{
+    transition: all ease-out 0.3s;
+}
+
+.about{
+    
+    transform: translateX(320px);
+    transition: all ease-out 0.3s;
+}
+
+.project{
+    
+    transform: translateX(520px);
+    transition: all ease-out 0.3s;
+}
+
+.article{
+    
+    transform: translateX(720px);
+    transition: all ease-out 0.3s;
+}
+
+.contact{
+    
+    transform: translateX(920px);
+    transition: all ease-out 0.3s;
+}

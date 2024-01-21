@@ -1,0 +1,35 @@
+.cross-line-left {
+  position: absolute;
+  height: 266px;
+  transform: translate(45px, -7.5px);
+  rotate: -10.83deg;
+  border: solid white 0.5px;
+  transition: all ease 1s;
+}
+
+.cross-line-right {
+  position: absolute;
+  height: 266px;
+  transform: translate(45px, 7.5px);
+  rotate: 10.83deg;
+  border: solid white 0.5px;
+  transition: all ease 1s;
+}
+
+.cross-line-left-1 {
+  position: absolute;
+  height: 266px;
+  transform: translate(-45px, -7.5px) ;
+  rotate: 10.83deg;
+  border: solid white 0.5px;
+  transition: all ease 1s;
+}
+
+.cross-line-right-1 {
+  position: absolute;
+  transform: translate(-45px, 7.5px);
+  height: 266px;
+  rotate: -10.83deg;
+  border: solid white 0.5px;
+  transition: all ease 1s;
+}
