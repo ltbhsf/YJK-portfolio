@@ -9,7 +9,7 @@ import pr02 from "../../db/pr02.gif";
 import pr03 from "../../db/pr03.gif";
 import pr04 from "../../db/pr04.gif";
 import pr05 from "../../db/pr05.gif";
-import pr06 from "../../db/pr06.gif";
+import pr06 from '../../db/pr06.jpeg';
 import pr07 from "../../db/pr07.gif";
 import pr08 from "../../db/pr09.gif";
 
