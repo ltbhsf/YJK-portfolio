@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import style from "./Header.module.css";
 
 const Header = (prop) => {
+  console.log(prop.button);
   return (
     <header className={style.header}>
       <h1 className={style.homeTab} onClick={() => prop.onNavigate("HOME")}>

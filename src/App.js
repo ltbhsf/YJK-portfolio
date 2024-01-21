@@ -31,7 +31,7 @@ function App() {
 
   const navigateHandler = (path) => {
     setPath(path);
-    // setButton(path);
+    setButton(path);
   };
 
   useEffect(() => {
