@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://ltbhsf.github.io/portfolio/",
+  "homepage": "https://ltbhsf.github.io/YJK-portfolio/",
   "eslintConfig": {
     "extends": [
       "react-app",
